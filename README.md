@@ -1,0 +1,25 @@
+# CSC313_project_GalamseyMonitoring_85852022
+Galamsey Monitoring Project
+/**
+ * @authors Emma-Ido Oluwaseyi Ukpong
+ * @studentId 85852022
+ *
+ * This package contains 6 classes
+ * @Galamsey is the class used for instantiating new Galamsey objects
+ * @Main is the "MonitoringGUI" class which contains a javaFX program that allows users to
+ * add galamsey records, observatory records and other
+ * @MonitoringIO This class gives user's a menu to perfom tasks such as adding a new galamsey record, observatory record
+ * and viewing galamsey records higher than a given galamsey value
+ * @GalamseyCSV This class contains a method that takes in the name of a .csv file as a parameter then reads galamsey records
+ * from that .csv file.
+ * @Observatory This class is used for Instantiating new Observatory Objects and storing Galamsey objects
+ */
+
+* To run this program, the "MySQL-connector-Java" driver from MySQL must be installed on your machine and 
+  should be placed in a folder called "lib" in your "src" folder
+* MySQL Workbench also needs to be installed on your machine and needs to be connected to the 'localhost:3306'
+  because that is what the program needs to establish a connection to the database
+* The GALAMSEY.sql file included in this project needs to be run on mySQL workbench before the java programs are run
+* The data.csv file included here is to test the method in the "GalamseyCsv class that creates new Galamsey objects from
+  the details given in the data.csv file. The data.csv file SHOULD be placed in the same folder as the "src" and "out folders.
+  Alternatively, you can put the file path of the .csv file in the java program.
